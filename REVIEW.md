@@ -15,6 +15,9 @@ List every defect you found in the starter `app/main.py` (helpers and endpoints)
 Also note anything you looked at and decided was **not** a defect, and why.
 - **FastAPI / Pydantic schema coercion:** Checked if custom ISO 8601 parsing was necessary for query strings like `from` / `to` or `month`; standard string validations and standard `datetime.strptime` patterns matched the OpenAPI specifications appropriately without requiring third-party libraries.
 
+## Additional Tasks & Deployment
+- **Live Deployment:** Deployed the FastAPI service to Vercel (serverless) connected to MongoDB Atlas. Live verification endpoint: `https://hr-one-candicate.vercel.app/health`.
+
 ## AI Assistance & Workflow
 To efficiently solve, review, and refactor the code:
 1. **Prompt Drafting:** I drafted a comprehensive context and specification prompt using ChatGPT, clarifying edge cases, MongoDB aggregation requirements, and API constraints.

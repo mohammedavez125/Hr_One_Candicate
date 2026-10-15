@@ -10,4 +10,6 @@
 
 5. **Scaling 100x.** I would implement pre-aggregated monthly buckets for analytics to avoid scanning 10M+ records. For the daily trend, I'd use MongoDB's Time Series collections for attendance logs to optimize storage and query speed.
 
-6. **AI Usage & Tooling.** I utilized an AI-assisted development workflow by first drafting a structured requirements and strategy prompt using ChatGPT, and then leveraging Junie and Codex for iterative code generation, debugging, aggregation pipeline construction, and systematic solution verification.
+6. **Additional Task & Deployment.** As an additional task, the application was deployed live to Vercel as a serverless FastAPI deployment connected to a MongoDB Atlas cluster, with health check available at `https://hr-one-candicate.vercel.app/health`.
+
+7. **AI Usage & Tooling.** I utilized an AI-assisted development workflow by first drafting a structured requirements and strategy prompt using ChatGPT, and then leveraging Junie and Codex for iterative code generation, debugging, aggregation pipeline construction, and systematic solution verification.
